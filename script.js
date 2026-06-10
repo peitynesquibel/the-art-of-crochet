@@ -26,12 +26,12 @@ function togglesidebar () {
 		sidebar.classList.remove('open');
 		console.log('sidebar closed')
 		sidebarbtn.setAttribute('aria-expanded', 'false')
-		sidebar_content('aria-hidden', 'true')
+		sidebar_content.setAttribute('aria-hidden', 'true')
 	} else {
 		sidebar.classList.add('open');
 		console.log('sidebar open')
 		sidebarbtn.setAttribute('aria-expanded', 'true')
-		sidebar_content('aria-hidden', 'false')
+		sidebar_content.setAttribute('aria-hidden', 'false')
 	}
 }
 
