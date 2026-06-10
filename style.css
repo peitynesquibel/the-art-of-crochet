@@ -114,6 +114,7 @@ h3{
     .sidebar {
 		width: 100%;
 		position: static;
+		padding-right: 0px;
 	} 
 	.wrapper { 
 	    flex-direction: column;
